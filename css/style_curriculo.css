@@ -9,57 +9,6 @@ body{
   background-size:920px 920px;
 }
 
-/*texto dentro das caixas de conteúdo*/
-.bloco_desc{
-  width: 300px;
-  position:absolute;
-  top: 280px;
-  font-family: Verdana;
-  font-size: 20px;
-  margin-left: -150px;
-  left: 50%;
-  z-index: 1;
-}
-
-/*imagem das caixas de conteúdo*/
-.bloco_img{
-  width: 300px;
-  margin-left: -150px;
-  position: relative;
-  left: 50%;
-  transition: width 0.5s, filter 0.25s;
-  z-index: 2;
-  filter: brightness(80%);
-}
-
-.bloco_img:hover{
-  width: 320px;
-  filter:brightness(100%);
-}
-
-/*caixa de conteúdo de redirecionamento*/
-.bloco_{
-  padding: 20px;
-  width: 340px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  filter: drop-shadow(0px 2px 10px #878791);
-  height: 350px;
-  margin-top: 40px;
-}
-
-/*coluna de conteúdo 1*/
-#body1{
-  position: absolute;
-  left: 350px;
-}
-
-/*coluna de conteúdo 2*/
-#body2{
-  position: absolute;
-  left: 790px;
-}
-
 /*menu lateral*/
 #bory0{
   position:absolute;
@@ -135,4 +84,14 @@ a{
   left: 50%;
   text-align: center;
   top: 100px;
+}
+
+#pdf{
+  position: absolute;
+  width: 750px;
+  height: 900px;
+  border: 10px solid #307090;
+  left: 400px;
+  top: 70px;
+  filter: drop-shadow(0px 0px 10px #404060);
 }
