@@ -35,23 +35,7 @@ body{
   position: absolute;
   left: 720px;
 }
-.lista_fixa_img{
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  position: relative;
-  margin-top: -20px;
-  margin-left: 0;
-  left: 10px;
-  top: 50%;
-}
-.lista_fixa{
-  border-radius: 60px;
-  background-color: #bbbbbb;
-  width: 230px;
-  height: 60px;
-  margin-bottom: 10px;
-}
+
 #bory0{
   position:absolute;
   top: 45px;
@@ -62,15 +46,6 @@ body{
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-.lsf_desc{
-  font-family: Verdana;
-  font-size: 20px;
-  position: relative;
-  width: 170px;
-  height: 59px;
-  left: 60px;
-  background-color: #858585;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  padding-top: 10px;
+.lista_fixa_img{
+  width: 230px;
 }
