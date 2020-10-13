@@ -41,7 +41,7 @@ a{
 #rodape{
   position:absolute;
   left: 0px;
-  top: 3000px;
+  top: 3400px;
   width: 100%;
   height: 200px;
   color: white;
@@ -141,4 +141,10 @@ a{
 
 #excel{
   top: 200px;
+}
+#word{
+  top:400px;
+}
+#programacao{
+  top: 600px;
 }
