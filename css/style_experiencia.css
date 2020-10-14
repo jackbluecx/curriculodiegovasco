@@ -1,0 +1,129 @@
+/*@@author diego vasco dias da silva@@*/
+body{
+  background-color: #C0BFCE;
+  padding: 0px;
+  background-image: url("../img/fundo.jpg");
+  background-repeat: no-repeat;
+  background-position:300px 0px;
+  background-attachment:fixed;
+  background-size:920px 920px;
+}
+
+/*menu lateral*/
+#bory0{
+  position:fixed;
+  top: 45px;
+  left: 0;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  filter: drop-shadow(0px 0px 10px #505060);
+}
+
+/*imagens da lista fixa lateral*/
+.lista_fixa_img{
+  width: 230px;
+}
+
+/*hiperlinks*/
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*rodape*/
+#rodape{
+  position:absolute;
+  left: 0px;
+  top: 2300px;
+  width: 100%;
+  height: 200px;
+  color: white;
+  background-color: #001f33;
+  border-top: 5px solid #3c8fba;
+}
+#text_form{
+  position: relative;
+  color: #909090;
+  font-weight:100;
+  font-size: 17px;
+  font-family: arial;
+  width: 600px;
+  margin-left: -300px;
+  left: 50%;
+  text-align: center;
+  top: 130px;
+}
+#rp_img_position{
+  width: 220px;
+  position: absolute;
+  margin-left: -110px;
+  left: 50%;
+}
+.img_rodape{
+  width: 50px;
+  padding: 10px;
+}
+.links_rp{
+  font-size: 20px;
+  font-family: Verdana;
+  color: white;
+  transition: color 0.2s
+}
+.links_rp:hover{
+  color: #82bddd;
+}
+#text_form_2{
+  font size: 20px;
+  font-family: Verdana;
+  position: absolute;
+  width: 600px;
+  margin-left: -300px;
+  left: 50%;
+  text-align: center;
+  top: 100px;
+}
+
+#body1{
+	position: absolute;
+	left:350px;
+	top:80px;
+	width: 800px
+}
+.conteudo_{
+	position: relative;
+	background-color: white;
+	border-radius: 30px;
+	filter: drop-shadow(0px 0px 25px #404060);
+	padding:30px;
+}
+.conteudo_img{
+	top:10px;
+	width: 700px;
+	margin-left: -350px;
+	left: 50%;
+	position: relative;
+	border-radius: 15px;
+}
+.conteudo_text{
+	width: 700px;
+	font-family: arial;
+	font-size: 25px;
+	text-align: justify;
+	position: relative;
+	top: 20px;
+	text-indent: 40px;
+	margin-bottom: 30px;
+  left: 20px;
+}
+#conteudo_2{
+	top: 150px;
+}
+#conteudo_3{
+	top: 300px;
+}
+.span{
+  font-weight: bolder;
+}
