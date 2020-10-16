@@ -85,21 +85,16 @@ a{
   text-align: center;
   top: 100px;
 }
-
-#pdf{
-  position: absolute;
-  width: 750px;
-  height: 900px;
-  border: 10px solid #307090;
-  left: 400px;
-  top: 70px;
-  filter: drop-shadow(0px 0px 10px #404060);
+#body_1{
+	width:700px;
+	position: absolute;
+	left: 400px;
+	top: 150px;
+	background-color: white;
+	filter: drop-shadow(0 0 30px #404060);
+	padding: 30px;
+	border-radius:60px;
 }
-#download{
-  position: absolute;
-  top: 1100px;
-  left: 600px;
-}
-#download_img{
-  width: 300px;
+#img_position{
+	
 }
